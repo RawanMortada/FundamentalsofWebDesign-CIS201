@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Light</title>
+	</head>
+	<body>
+		<p>What happens when they turn on the light</p>
+		<ul>
+			<li><a href="">Option 1</a></li>
+			<li><a href="">Option 2</a></li>
+		</ul>
+	</body>
+</html>
