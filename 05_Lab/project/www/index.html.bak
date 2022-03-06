@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<title>One Piece Characters</title>
+</head>
+	<main>
+		<body>
+			<h1><a href="https://one-piece.com/">One Piece Characters</a></h1>
+			<ol>
+				<li><a href="#Luffi">Luffi</a></li>
+				<li><a href="#Zoro">Roronoa Zoro</a></li>
+				<li><a href="#Nami">Nami</a></li>
+			</ol>
+			
+			<img src="../src/imgs/Luffy.png" alt="">
+			<p id="Luffi"><b>Monkey D. Luffy</b>, also known as "Straw Hat" Luffy, is a fictional character and the main protagonist
+			of the One Piece manga series, created by Eiichiro Oda. Luffy made his debut in One Piece Chapter
+			#1 as a young boy who acquires the properties of rubber after accidentally eating the supernatural
+			Gum-Gum Fruit.</p>
+			
+			<img src="../src/imgs/Nami.png" alt="">
+			<p id="Zoro"><b>Roronoa Zoro</b>, nicknamed "Pirate Hunter" Zoro, is a fictional character in the One Piece franchise
+			created by Eiichiro Oda. In the story, Pirate Hunter Zoro is the first to join Monkey D. Luffy after he is
+			saved from being executed at the Marine Base.</p>
+			
+			<img src="../src/imgs/Zoro.jpg" alt="">
+			<p id="Nami"><b>Nami</b> is a fictional character in the One Piece franchise created by Eiichiro Oda. She is based on
+			Ann and Silk, two characters from Oda's previous manga Romance Dawn. She is introduced as a
+			thief and pickpocket who possesses cartographical, meteorological and navigational skills.</p>
+		</body>
+	</main>
+</html>
