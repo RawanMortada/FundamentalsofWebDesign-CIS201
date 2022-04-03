@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>Students</title>
+		 <link rel="stylesheet" href="app.css">
+	</head>
+	<body>
+		<h1>Student List</h1>
+		<table>
+			<caption>Table 01: This is CIS 201 fake student list</caption>
+			<tr>
+				<th>Major</th>
+				<th>S.ID</th>
+				<th>S.Name</th>
+				<th colspan="2">S.Phone</th>
+			</tr>
+			<tr>
+				<td rowspan="4">SE</td>
+				<td>12345</td>
+				<td>Layla</td>
+				<td>0566666</td>			
+				<td>0577777</td>
+			</tr>
+			<tr>
+				<td>13578</td>
+				<td>Manal</td>
+				<td>0566888</td>
+				<td>0579999</td>
+			</tr>
+			<tr>
+				<td>23456</td>
+				<td>Saleh</td>
+				<td colspan="2">0566666</td>
+			</tr>
+			<tr>
+				<td>12345</td>
+				<td>Mohammed</td>
+				<td colspan="2">0563333</td>
+		    </tr>
+			<tr>
+				<td rowspan="4">NES</td>
+				<td>34567</td>
+				<td>Najlaa</td>
+				<td>0544444</td>
+				<td>0577777</td>
+			</tr>
+			<tr>
+				<td>34567</td>			
+				<td>Faisal</td>
+				<td>0544444</td>
+				<td>0577777</td>
+			</tr>
+			<tr>
+				<td>3456</td>
+				<td>Abdullah</td>
+				<td colspan="2">0544444</td>
+			</tr>
+			<tr>
+				<td>3456</td>
+				<td>Abdulaziz</td>
+				<td colspan="2">0544224</td>
+			</tr>
+		</table>
+		
+		<h2>Registration Form</h2>
+		<p>Please fill in the registration form if you wish to register.</p>
+		
+		<table>
+			<tr>
+				<td>First Name</td>
+				<td>
+				<form action="#">
+				<input type="text">
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td>
+				<form action="#">
+				<input type="text">
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>
+				<form action="#">
+				<input type="text">
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td>Age</td>
+				<td>
+				<form action="#">
+				<input type="text">
+				</form>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Gender</td>
+				<td>
+					<form>
+						<input type="radio" id="male">
+						<label for="male">Male</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form>
+						<input type="radio" id="female">
+						<label for="male">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Major</td>
+				<td>
+					<form>
+						<input type="radio" id="SE">
+						<label for="male">Software Engineering</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form>
+						<input type="radio" id="NES">
+						<label for="male">Network Engineering and Security</label>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="4">What are your favorite courses?</td>
+				<td>
+					<form action="#">
+					<input type="text"> Web Design
+					</form>
+				</td>
+				<tr>
+					<td>
+						<form>
+							<input type="radio" id="Backend">
+							<label for="Backend">Backend Development</label>
+					</td>
+				</tr>
+			</tr>
+			<tr>
+				<td>
+					<form>
+						<input type="radio" id="Java">
+						<label for="Java">Programming in Java</label>
+				</td>
+			</tr>
+			<tr>
+			<td>
+					<form>
+						<input type="radio" id="Security">
+						<label for="Security">Security</label>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="Submit" value="Submit Querys">
+				</td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
