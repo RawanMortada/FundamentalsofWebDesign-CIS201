@@ -1,0 +1,12 @@
+#questions{
+	font-weight:bold;
+	color: blue;
+}
+a{
+	font-family: sans-serif;
+	color: green;
+}
+.ans{
+	color: red;
+	font-weight: lighter;
+}
