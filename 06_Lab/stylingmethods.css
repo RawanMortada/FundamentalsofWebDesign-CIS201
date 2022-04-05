@@ -1,0 +1,15 @@
+/*ID selector*/
+#questions{
+	font-weight:bold;
+	color: blue;
+}
+/*attribute universal selector*/
+a{
+	font-family: sans-serif;
+	color: green;
+}
+/*class selector*/
+.ans{
+	color: red;
+	font-weight: lighter;
+}
