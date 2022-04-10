@@ -1,0 +1,20 @@
+body {
+    background-color: #C2CCC5;
+}
+
+a.brandName {
+    color: #303D38;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #303D38;
+}
+
+.paragraph {
+    color: aliceblue;
+}
