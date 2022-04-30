@@ -1,0 +1,166 @@
+body {
+    background-color: #C2CCC5;
+    font-family: garamond;
+}
+
+
+#pageLinks .nav-item {
+    padding: 20px 30px 20px;
+}
+
+#bottomBar {
+    background-color: #928A74;
+
+
+}
+
+span {
+    justify-content: right;
+}
+
+a.brandName {
+    color: #303D38;
+}
+
+#mainNav {
+    background-color: #928A74;
+    transition: background 500ms;
+}
+
+#searchBar {
+    margin-top: 10px;
+}
+
+a {
+    color: #303D38;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #C2983D;
+}
+
+#categoryLink {
+    color: #C2CCC5;
+}
+
+#categoryLink:hover {
+    color: #dde4df;
+}
+
+#paragraphHeading {
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+#homeBtnSI,
+#homeBtnLI {
+    background-color: #C2983D;
+    color: whitesmoke;
+    border-color: #928A74;
+    margin: 0px 20px;
+}
+
+#homeBtnSI:hover {
+    background-color: #cfac60;
+}
+
+#homeBtnLI:hover {
+    background-color: #cfac60;
+}
+
+#homePageParagraph {
+    margin: 290px 0px 200px 0px;
+}
+
+#genres {
+    background-color: #303D38;
+    color: #C2CCC5;
+    padding: 4px 40px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+#genreLine1 {
+    margin-bottom: 15px;
+}
+
+
+#bookPics {
+    padding: 90px 60px;
+}
+
+#AboutPageParagraph1 {
+    padding: 80px 50px 30px;
+}
+
+#AboutPageParagraph2 {
+    padding: 100px 50px 30px;
+}
+
+#AboutHeading {
+    padding: 100px 0px 0px 40px;
+    font-weight: bold;
+
+}
+
+#SigninForm {
+    margin-left: 20px;
+}
+
+#formHeader {
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#aboutImg1 {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#products {
+    margin: 90px 30px 20px;
+    color: #303D38;
+}
+
+
+#book {
+    background-color: whitesmoke;
+    border-radius: 2px;
+}
+
+#bookName {
+    font-size: 17px;
+    margin-top: 4px;
+    margin-bottom: 0;
+
+}
+
+#authorName {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#cost {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+button {
+    background-color: #C2983D;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 4px 20px;
+}
+
+button:hover {
+    background-color: #e3b249;
+}
