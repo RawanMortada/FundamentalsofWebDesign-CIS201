@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>Seshat:Products</title>
+</head>
+
+<body>
+
+    <!--Navigation bar -->
+    <div id="navBar">
+        <nav id="mainNav" class="navbar navbar-dark navbar-expand-md rounded py-0 fixed-top">
+            <a href="#" class="navbar-brand" id="brandName" href="#">SESHAT BOOKSTORE</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#pageLinks"
+                aria-label="Toggler navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="pageLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#home">HOME</a></li>
+                    <li class="nav-item"><a href="#products">PRODUCTS</a></li>
+                    <li class="nav-item"><a href="#about">ABOUT</a></li>
+                    <div class="col-md-12" id="searchBar">
+                        <form id="searchBar" class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                </ul>
+                <div class="d-flex justify-content-right d-none d-lg-block ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cart2" viewBox="0 0 16 16">
+                        <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="products">
+        <div class="row d-flex justify-content-around" id="col1">
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="thegiver.jpg">
+                <div id="book">
+                    <p id="bookName">The Giver</p>
+                    <p id="authorName">Lois Lowry</p>
+                    <p id="cost">20SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="1491.jpg">
+                <div id="book">
+                    <p id="bookName">1491:New Revelations...</p>
+                    <p id="authorName">Charles C.Mann</p>
+                    <p id="cost">54SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="thechemist.jpg">
+                <div id="book">
+                    <p id="bookName">The Chemist</p>
+                    <p id="authorName">Stephenie Meyer</p>
+                    <p id="cost">49SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="hitler.jpg">
+                <div id="book">
+                    <p id="bookName">Hitler</p>
+                    <p id="authorName">Joachim C.Fest</p>
+                    <p id="cost">59SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-around" id="col1">
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="TheGirlontheTrain.jpg">
+                <div id="book">
+                    <p id="bookName">The Girl on the Train</p>
+                    <p id="authorName">Paula Hawkins</p>
+                    <p id="cost">29SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="ElizabethisMissing.jpg">
+                <div id="book">
+                    <p id="bookName">Elizabeth is Missing</p>
+                    <p id="authorName">Emma Healy</p>
+                    <p id="cost">25SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="TheDiaryofaYoungGirl.jpg">
+                <div id="book">
+                    <p id="bookName">The Diary of a Young Girl</p>
+                    <p id="authorName">Anne Frank</p>
+                    <p id="cost">89SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="NightMusic.jpg">
+                <div id="book">
+                    <p id="bookName">Night Music</p>
+                    <p id="authorName">Jojo Moyes</p>
+                    <p id="cost">39SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-around" id="col1">
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="beginningofeverything.jpg">
+                <div id="book">
+                    <p id="bookName">The Beginning of Everything</p>
+                    <p id="authorName">Robyn Schneider's</p>
+                    <p id="cost">84SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="StalinEnglishman.jpg">
+                <div id="book">
+                    <p id="bookName">Stalin's Englishman</p>
+                    <p id="authorName">Andrew Lownie</p>
+                    <p id="cost">84SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="EcologicalIntelligence.jpg">
+                <div id="book">
+                    <p id="bookName">Ecological Intelligence</p>
+                    <p id="authorName">Daniel Goleman</p>
+                    <p id="cost">78SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="48LawsofPower.jpg">
+                <div id="book">
+                    <p id="bookName">48 Laws of Power</p>
+                    <p id="authorName">Robert Greene</p>
+                    <p id="cost">67SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-around" id="col1">
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="ThinkandGrowRich.jpg">
+                <div id="book">
+                    <p id="bookName">Think and Grow Rich</p>
+                    <p id="authorName">Napoleon Hill</p>
+                    <p id="cost">39SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="Sapiens.jpg">
+                <div id="book">
+                    <p id="bookName">Sapiens:The Birth of Humankind</p>
+                    <p id="authorName">Yuval Noah Harari</p>
+                    <p id="cost">89SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="TheRiseandFalloftheThirdReich.jpg">
+                <div id="book">
+                    <p id="bookName">The Rise and Fall of the Third Reich</p>
+                    <p id="authorName">William L.Shirer</p>
+                    <p id="cost">89SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img id="bookPic" class="img-fluid" src="SecretsofInfluentialPeople.jpg">
+                <div id="book">
+                    <p id="bookName">Secrets of Influential People</p>
+                    <p id="authorName">Steven Pearce</p>
+                    <p id="cost">48SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-around" id="col1">
+            <div class="col-3 col-lg-2">
+                <img class="img-fluid" src="Hiroshima.jpg">
+                <div id="book">
+                    <p id="bookName">Hiroshima</p>
+                    <p id="authorName">John Hersey</p>
+                    <p id="cost">78SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img class="img-fluid" src="RichDadPoorDad.jpg">
+                <div id="book">
+                    <p id="bookName">Rich Dad Poor Dad</p>
+                    <p id="authorName">Robert Kiyosaki</p>
+                    <p id="cost">50SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img class="img-fluid" src="TheConcise33StrategiesOfWar.jpg">
+                <div id="book">
+                    <p id="bookName">The Concise 33 Strategies Of War</p>
+                    <p id="authorName">Robert Greene</p>
+                    <p id="cost">45SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="col-3 col-lg-2">
+                <img class="img-fluid" src="TheHiddenChild.jpg">
+                <div id="book">
+                    <p id="bookName">The Hidden Child</p>
+                    <p id="authorName">Camilla Lackberg</p>
+                    <p id="cost">25SR</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- Optional Javascript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
