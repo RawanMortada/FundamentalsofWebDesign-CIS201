@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>Seshat:About</title>
+</head>
+
+<body>
+
+    <!--Navigation bar -->
+    <div id="navBar">
+        <nav id="mainNav" class="navbar navbar-dark navbar-expand-md rounded py-0 fixed-top">
+            <a href="#" class="navbar-brand" id="brandName" href="#">SESHAT BOOKSTORE</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#pageLinks"
+                aria-label="Toggler navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="pageLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#home">HOME</a></li>
+                    <li class="nav-item"><a href="#products">PRODUCTS</a></li>
+                    <li class="nav-item"><a href="#about">ABOUT</a></li>
+                    <div class="col-md-12" id="searchBar">
+                        <form id="searchBar" class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row">
+        <h3 id="AboutHeading">About</h3>
+    </div>
+    <div class="row" id="AboutPageParagraph1">
+        <div class="col-6">
+            <img class="img-fluid"
+                src="https://images.pexels.com/photos/3952071/pexels-photo-3952071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="">
+        </div>
+        <div class="col-6">
+            <br><br>
+            <p>This online bookstore was developed by Rawan Mortada, a software engineering student in
+                AlYamamah University.
+            </p>
+        </div>
+    </div>
+    <div class="row" id="AboutPageParagraph2">
+        <div class="col-4">
+            <h6 id="formHeader">Stay in touch with us!</h6>
+            <div id="regForm">
+                <form id="SigninForm">
+                    <label>First name:</label><input value="">
+                </form>
+                <form id="SigninForm">
+                    <label>Last name:</label><input value="">
+                </form>
+                <form id="SigninForm" id="emailForm">
+                    <label>Email:</label><input value="">
+                </form>
+            </div>
+        </div>
+        <div class="col-2"></div>
+
+        <div class="col-6 class=" d-flex align-items-center"">
+            <br><br><br>
+            <p>If you want to be one of the first people to know about our
+                offers
+                and end-of-year sales,
+                make sure to register in our mail box. Alot of exclusive offers and exciting news await you!</p>
+
+        </div>
+    </div>
+    <!-- Optional Javascript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
