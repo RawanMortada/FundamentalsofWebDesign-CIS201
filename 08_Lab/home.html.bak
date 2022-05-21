@@ -121,13 +121,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <!--the following JS code makes the background color of the navBar change when we scroll-->
-    <script>
-        $(document).scroll(function () {
-            var $nav = $("#mainNav");
-            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-        })
-    </script>
+
 </body>
 
 </html>
